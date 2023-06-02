@@ -96,13 +96,6 @@ function draw() {
       line(eyeR.x, eyeR.y, eyeL.x, eyeL.y);
       text(round(d,2),eyeR.x, eyeR.y+20);
 
-      // let v1 = createVector(eyeR.x, eyeR.y, 0);
-      // let v2 = createVector(eyeL.x, eyeL.y, 0);
-
-      // let angle = v1.angleBetween(v2);
-
-      
-      // drawArrow(v1, v2, 'red');
       drawAngle(eyeL.x, eyeL.y, d, aaaa, 'red');
       text( round(aaaa, 2), eyeL.x, eyeL.y);
 
@@ -132,7 +125,7 @@ function draw() {
     }
 
     if(drawmode==6){
-      // opf glasses
+      // opf carl
       imageMode(CENTER);
       angleMode(DEGREES);
       push();
