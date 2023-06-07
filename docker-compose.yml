@@ -1,0 +1,8 @@
+version: '3'
+services:
+  face-detector:
+    build:
+     context: .
+     dockerfile: Dockerfile
+    ports:
+      - "8181:80"
